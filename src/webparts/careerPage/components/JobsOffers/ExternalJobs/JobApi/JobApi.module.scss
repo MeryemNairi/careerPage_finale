@@ -1,0 +1,203 @@
+
+.jobsApi {
+  display: flex;
+  flex-direction: column;
+  max-height: 1000px;
+  position: relative;
+}
+
+.Jobs_holder_scroller{
+  width: 100%;
+  height: auto;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+  // /* Optional: show position indicator in red */
+  // ::-webkit-scrollbar-thumb {
+  //     background: #FF0000;
+  // }
+/* --------------------------------> The new job offers styles <--------------------------------- */
+
+
+
+
+.container_title{
+  color: #044123;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  margin-top: 10px;
+  P{
+    margin: 1rem 0 0 0;
+  }
+}
+.Jobs_container{
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 5rem auto;
+  border-radius: 2.8125rem;
+  padding: 10px;
+  max-width: 40.1875rem ;
+  max-height: 96%;
+  gap: 10px;
+  overflow: hidden;
+}
+.job_navigation_bar{
+
+  display: grid;
+  grid-template-columns: 50px auto;
+  
+  grid-gap: 20px;
+  
+
+  max-width: 40.1875rem;
+  min-width: 30rem;
+  height: 4rem;
+  
+  border-radius: 2.4375rem;
+  background: #EDEDED;
+  margin: 10px;
+
+
+
+}
+.jobs_display_container{
+  position: relative;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.jobs_display{
+  max-width: 40.1875rem;
+  
+ 
+  border-radius: 2rem;
+  background: #FCFCFC;
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+
+  p,h2{
+    margin: 0;
+  }
+
+}
+
+.ACI{
+  color: #03B586;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.job_title{
+  color: #044123;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.job_description {
+  color: #909090;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  max-height: 4.9375rem;
+  overflow: auto; /* Utilisez 'auto' pour ajouter une barre de défilement seulement si nécessaire */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  
+  /* Retirer les propriétés de WebKit pour un défilement complet */
+  display: block;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: unset;
+  text-overflow: unset;
+}
+
+.job_description::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+  background: transparent; 
+}
+
+.job_search_input{
+  
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+  z-index: 1;
+  background: transparent;
+  
+  
+}
+.serch_icon {
+  margin-right: 5px; /* Adjust the margin as needed */
+  cursor: pointer;
+  opacity: 0.5;
+  padding: 10px;
+}
+.card_button{
+  text-align: right;
+  padding-right: 1rem;
+  
+  margin-top: 20px;
+}
+.card_button a {
+  color: #03B586;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+
+.card_button a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+.jobs_display:hover {
+  background-color: #03B586; /* Change background color on hover */
+  box-shadow: none;
+
+}
+
+.jobs_display:hover .ACI {
+  color: white;
+}
+.jobs_display:hover .job_title{
+  color: white;
+}
+.jobs_display:hover .job_description{
+  color: white;
+}
+.jobs_display:hover .card_button a{
+  color: white;
+}
+
+
+.job_description_field{
+  max-height: 4.9375rem;
+  overflow: hidden;
+}

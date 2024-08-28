@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "career-page-finale-client-side-solution",
+    "id": "3a629ad7-4a20-49ee-9995-0df088c4f9da",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CareerPageFinale description"
+      },
+      "longDescription": {
+        "default": "CareerPageFinale description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "career-page-finale Feature",
+        "description": "The feature that activates elements of the career-page-finale solution.",
+        "id": "da68f874-ebe9-46ca-937b-a46182623141",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/career-page-finale.sppkg"
+  }
+}
