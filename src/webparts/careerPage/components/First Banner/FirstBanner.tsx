@@ -59,7 +59,7 @@ const FirstBanner: React.FC<FirstBannerProps> = ({ onShowSavoirPlus }) => {
             <div className={styles.FB_content}>
                         <p>
                             
-                        For promissing <br /><span style={{color:'#8EB1E3'}}> futur</span> 
+                        For promissing <br /><span style={{color:'#8EB1E3'}}> future</span> 
                             
                         </p>
                     </div>

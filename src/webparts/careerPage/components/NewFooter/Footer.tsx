@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                             </div>
                         </div></a>
 
-                        <a href="https://cnexia.sharepoint.com/sites/CnexiaForEveryone/Assets/Forms/AllItems.aspx?id=%2Fsites%2FCnexiaForEveryone%2FAssets%2FGuide%20%2D%20CLEARVIEW%20%2Epdf&parent=%2Fsites%2FCnexiaForEveryone%2FAssets&p=true&ga=1"><div className={styles.link_holder}>
+                        <a href="https://cnexia.sharepoint.com/sites/CnexiaForEveryone/Assets/Guide%20%2D%20CLEARVIEW%20%2Epdf"><div className={styles.link_holder}>
                             <div className={styles.link_icon}>
                                 <svg width="143" height="29" viewBox="0 0 143 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_2393_519)">
@@ -95,10 +95,10 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
                 <div className={styles.buttom_part}>
-                    <div className={styles.urls}>
+                <div className={styles.urls}>
                         <div className={styles.url}><a href="/sites/Cnet/SitePages/Home.aspx" target="_blank">Home</a></div>
                         <div className={styles.url}><a href="/sites/Cnet/SitePages/Communication.aspx" target="_blank">Communication</a></div>
-                        <div className={styles.url}><a href="/sites/Cnet/SitePages/Career5.aspx" target="_blank">Career</a></div>
+                        <div className={styles.url}><a href="/sites/Cnet/SitePages/Career.aspx" target="_blank">Career</a></div>
                         <div className={styles.url}><a href="/sites/Cnet/SitePages/P&C.aspx" target="_blank">People&Culture</a></div>
                     </div>
                     <div className={styles.line}></div>
