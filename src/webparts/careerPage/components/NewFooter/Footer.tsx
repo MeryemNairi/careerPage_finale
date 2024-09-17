@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
 
                         <a href="https://eprogram.store/"><div className={styles.link_holder}>
                             <div className={styles.link_icon}>
-                                <img src="/sites/CnexiaForEveryone/Assets/Eprogramme.webp" alt="" />
+                            <img src="/sites/Cnet/Assets/Eprogramme.webp" alt="" />
                             </div>
                             <div className={styles.link_txt}>
                                 <p>eProgram</p>

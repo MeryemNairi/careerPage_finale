@@ -26,6 +26,18 @@ const Team: React.FC = () => {
                     <div className={styles.member_card}>
                         <div className={styles.holder}>
                             <div className={styles.img_holder}>
+                                <img src="/sites/Cnet/Assets/Lamyae.png"  alt="" />
+                            </div>
+                        </div>
+                        <div className={styles.name_function}>
+                            <p>
+                            Lamyaa El Idrissi<br /><span style={{fontSize:'14px', fontWeight:'400', color:'#8EB1E3'}}>Tech Talent Acquisition Partner</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.member_card}>
+                        <div className={styles.holder}>
+                            <div className={styles.img_holder}>
                                 <img src="/sites/Cnet/Assets/Driss.png"  alt="" />
                             </div>
                         </div>
@@ -35,22 +47,6 @@ const Team: React.FC = () => {
                             </p>
                         </div>
                     </div>
-                    
-                    <div className={styles.member_card}>
-                        <div className={styles.holder}>
-                            <div className={styles.img_holder}>
-                                <img src="/sites/Cnet/Assets/Lamyae.png"  alt="" />
-                            </div>
-                        </div>
-                        <div className={styles.name_function}>
-                            <p>
-                            Lamyaa El Idrissi<br /><span style={{fontSize:'14px', fontWeight:'400', color:'#8EB1E3'}}>Chargée de Recrutement et Intégration IT</span>
-                            </p>
-                        </div>
-                    </div>
-                    
-
-
                </div>
             </div>
         </div>

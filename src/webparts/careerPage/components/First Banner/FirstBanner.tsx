@@ -77,7 +77,7 @@ const FirstBanner: React.FC<FirstBannerProps> = ({ onShowSavoirPlus }) => {
                         >
                         </div>
                         <button className={styles.card_btn} onClick={handleButtonClick}>
-                            {showMore ? 'Découvrir moins' : 'Découvrir plus'}
+                            {showMore ? 'Afficher  moins' : 'Afficher  plus'}
                         </button>
                         </div>
                     </div>
